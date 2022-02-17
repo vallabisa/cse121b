@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 06 | Task</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Lesson 2</a></li>
+            <li><a href="">Lesson 3</a></li>
+            <li><a href="">Lesson 4</a></li>
+            <li><a href="">Lesson 5</a></li>
+            <li><a href="#" class="active">Lesson 6</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Hello!</h1>
+    </header>
+    <main class="background">
+        <section>
+            <h2>
+                Today is <span id="message2"></span>.
+            </h2>
+            <h3>
+                <span id="message1"></span>
+            </h3>
+        </section>
+        <hr>
+        <section>
+            <h2>Let's Play Tic-Tac-Toe</h2>
+            <h3>The first player to get 3 marks in a row is the winner</h3>
+
+            <section class="display">
+                Player <span class="display-player playerX">X</span>'s turn
+            </section>
+
+            <section class="container">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </section>
+            <section class="controls">
+                <button id="reset">Play again?</button>
+            </section>
+            <section class="display announcer hide"></section>
+
+
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Tic-Tac-Toe Game | Week 6
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/task6.js"></script>
+</body>
+
+</html>
